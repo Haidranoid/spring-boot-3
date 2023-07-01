@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+    format:
+      date: yyyy-MM-dd
+
+logging:
+  level:
+    org:
+     #springframework: debug
+      springframework: info
+    com:
+      example:
+        myfirstwebapp: debug
